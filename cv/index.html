@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <header>
+            <img src="hallmark-2023.png" alt="Chevron Logo" class="logo">
+            <img src="photo_2025-01-05_04-17-04.jpg" alt="" class="image">
+            <h1>JOB APPLICATION FORM/C.V.</h1>
+            <h3>POSITION APPLIED FOR ____________________</h3>
+        </header>
+        <section class="profile">
+            <h2>Applicant's Profile</h2>
+            <form>
+                <label>Name: <input type="text" name="name"></label>
+                <label>Father's Name: <input type="text" name="father_name"></label>
+                <label>Permanent Address: <textarea name="address"></textarea></label>
+                <div class="row">
+                    <label>Phone No (Res): <input type="text" name="phone_res"></label>
+                    <label>Office: <input type="text" name="office"></label>
+                </div>
+                <div class="row">
+                    <label>Mobile: <input type="text" name="mobile"></label>
+                    <label>Age: <input type="number" name="age"></label>
+                </div>
+                <label>Email Address: <input type="email" name="email"></label>
+                <label>Passport No: <input type="text" name="passport"></label>
+                <label>Marital Status: <input type="text" name="marital_status"></label>
+                <label>Qualifications: <textarea name="qualifications"></textarea></label>
+                <div class="row">
+                    <label>Present Employer: <input type="text" name="present_employer"></label>
+                    <label>Current Position: <input type="text" name="current_position"></label>
+                </div>
+                <div class="row">
+                    <label>Experience in Position Applied For: <input type="text" name="experience_position"></label>
+                    <label>Total Experience: <input type="text" name="total_experience"></label>
+                </div>
+                <label>Notice Period (Duration): <input type="text" name="notice_period"></label>
+                <label>Willing to serve anywhere in Canada:</label>
+                <div class="row">
+                    <label>Yes <input type="radio" name="canada" value="yes"></label>
+                    <label>No <input type="radio" name="canada" value="no"></label>
+                </div>
+                <h2>Educational Qualification:</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>Major Subject</th>
+                            <th>Passing Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="text" name="masters_degree"></td>
+                            <td><input type="text" name="masters_institution"></td>
+                            <td><input type="text" name="masters_major"></td>
+                            <td><input type="text" name="masters_year"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="graduation_degree"></td>
+                            <td><input type="text" name="graduation_institution"></td>
+                            <td><input type="text" name="graduation_major"></td>
+                            <td><input type="text" name="graduation_year"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="professional_degree"></td>
+                            <td><input type="text" name="professional_institution"></td>
+                            <td><input type="text" name="professional_major"></td>
+                            <td><input type="text" name="professional_year"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="other_degree"></td>
+                            <td><input type="text" name="other_institution"></td>
+                            <td><input type="text" name="other_major"></td>
+                            <td><input type="text" name="other_year"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
